@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero {
+    background-color: #1F2937;
+    height: 200px;
+}
+
+.info {
+    height: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 160px;
+}
+
+.action {
+    height: 120px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 50px;
+}
