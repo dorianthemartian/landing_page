@@ -12,7 +12,8 @@ body {
 
 .hero {
     background-color: #1F2937;
-    height: 200px;
+    height: auto;
+    display: flex;
 }
 
 .info {
