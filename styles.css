@@ -18,7 +18,7 @@ body {
 }
 
 .header-container  {
-    margin: 20px 100px;
+    margin: 20px 150px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -26,6 +26,7 @@ body {
 
 .header {
     margin-right: auto;
+    font-size: 24px;
     color: #F9FAF8;
 }
 
@@ -41,6 +42,38 @@ li {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.awesome-container {
+    margin: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.small-awesome {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    width: 100px;
+    padding: 8px 0;
+    border: none;
+    margin-top: 8px;
 }
 
 .info {
