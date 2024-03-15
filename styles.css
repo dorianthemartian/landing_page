@@ -74,10 +74,26 @@ button {
     padding: 8px 0;
     border: none;
     margin-top: 8px;
+    border-radius: 8px;
 }
 
 .info {
-    height: 200px;
+    height: auto;
+}
+
+.random {
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.up, .down, .left, .right {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
 }
 
 .quote {
